@@ -6,6 +6,7 @@ id
 echo "Updating repository..."
 cd /home/git/repositories/hermes.git
 git fetch origin +master:master
+git update-server-info
 echo "  Done."
 echo "Updating docs..."
 cd /var/www2/hermes/hermes
