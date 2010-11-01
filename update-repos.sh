@@ -19,4 +19,7 @@ git update-server-info
 cd /home/git/repositories/mesheditor-flex.git
 git fetch origin +master:master
 git update-server-info
+cd /home/git/repositories/himg.git
+git fetch origin +master:master
+git update-server-info
 echo "  Done."
