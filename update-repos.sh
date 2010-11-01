@@ -16,4 +16,7 @@ git update-server-info
 cd /home/git/repositories/agros2d.git
 git fetch origin +master:master
 git update-server-info
+cd /home/git/repositories/mesheditor-flex.git
+git fetch origin +master:master
+git update-server-info
 echo "  Done."
