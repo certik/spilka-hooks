@@ -6,14 +6,14 @@ id
 
 #---- Updating Repository ---------
 echo "Updating repository..."
-cd /home/git/repositories/hermes.git
+cd /home/git/repositories/femhub.git
 git fetch origin +master:master
 git update-server-info
 echo "  Done."
 
 #----- Update Documentation ----
 echo "Updating docs..."
-cd /var/www2/hermes/hermes
+cd /var/www3/femhub.org/femhub
 export GIT_DIR=`pwd`/.git
 /usr/bin/git reset --hard
 /usr/bin/git clean -dfx

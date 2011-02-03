@@ -27,7 +27,7 @@ for f in gitInfo['commits'][0]['modified']:
 author = "'" + gitInfo['commits'][0]['author']['name'] + "'"
 commit_message = "'" + gitInfo['commits'][0]['message'] + "'"
 
-cmd = 'sudo /bin/su git -c "/bin/sh update-hermes-repo.sh"'
+cmd = 'sudo /bin/su git -c "/bin/sh update-femhub-repo.sh"'
 print "Running update script."
 p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,
 	stderr=subprocess.STDOUT)
